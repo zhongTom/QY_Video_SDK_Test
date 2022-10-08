@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-    s.name     = 'QYVideoService'
+    s.name     = 'QY_iOS_Video_SDK_Test'
     s.version  = '0.1.0'
     s.license  = { :"type" => "Copyright",
                    :"text" => " Copyright 2021 Netease \n"}  
