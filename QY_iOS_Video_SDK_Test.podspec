@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
     s.author   = { 'qiyukf' => 'yunshangfu@126.com' }
     s.source   = { :git => 'https://github.com/zhongTom/QY_iOS_Video_SDK_Test.git', :tag => "0.1.0" }
     s.platform = :ios, '9.0'
+    s.vendored_frameworks = '**/QYVideoService.xcframework'
     s.frameworks = 'AVFoundation', 'UIKit', 'SystemConfiguration', 'MobileCoreServices', 'WebKit', 'CoreTelephony', 'CoreText', 'CoreMedia', 'ImageIO', 'CoreMotion', 'AudioToolbox', 'Photos'
     s.libraries = 'c++', 'z','sqlite3.0','xml2'
     s.resources  = '**/Resources/QYVideoResource.bundle'
